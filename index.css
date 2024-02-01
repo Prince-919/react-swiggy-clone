@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+.logo {
+  width: 150px;
+}
+.nav-items > ul {
+  display: flex;
+}
+
+.nav-items > ul > li {
+  list-style: none;
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.restaurant-container {
+  margin-left: 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.restaurant-card {
+  padding: 5px;
+  margin: 5px;
+  width: 250px;
+  height: 350px;
+}
+.restaurant-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.search {
+  padding: 10px;
+}
+.restaurant-logo {
+  width: 100%;
+  height: 40%;
+}

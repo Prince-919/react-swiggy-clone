@@ -1,0 +1,27 @@
+{
+  "name": "react-swiggy-clone",
+  "version": "1.0.0",
+  "description": "React-Swiggy-Clone",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel  index.html",
+    "build": "parcel  build index.html"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Prince Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browerslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions"
+  ]
+}
