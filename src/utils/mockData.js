@@ -1,10 +1,4 @@
-export const CDN_URL =
-  "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
-
-export const LOGO_URL =
-  "https://www.logodesign.net/logo-new/deli-sandwich-in-circle-6946ld.png";
-
-export const resObj = [
+export default resObj = [
   {
     info: {
       id: "5934",
@@ -16,7 +10,7 @@ export const resObj = [
       cuisines: ["Burgers", "American"],
       avgRating: 4.3,
       parentId: "166",
-      avgRatingString: "4.3",
+      avgRatingString: "3.3",
       totalRatingsString: "10K+",
       sla: {
         deliveryTime: 18,
@@ -80,7 +74,7 @@ export const resObj = [
       ],
       avgRating: 4.3,
       parentId: "195515",
-      avgRatingString: "4.3",
+      avgRatingString: "3.9",
       totalRatingsString: "5K+",
       sla: {
         deliveryTime: 19,
