@@ -19,7 +19,7 @@
 
 .nav-items > ul > li {
   list-style: none;
-  margin-right: 20px;
+  margin-right: 25px;
   font-weight: 600;
   font-size: 18px;
 }
@@ -47,5 +47,22 @@
 }
 .filter-btn {
   margin: 10px;
+  cursor: pointer;
+}
+.shimmer-container {
+  display: flex;
+  margin-left: 80px;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  margin-top: 50px;
+  margin-left: 15px;
+  width: 250px;
+  height: 350px;
+  background: #ced4da;
+}
+.login {
+  padding: 2px 18px;
+  margin-right: 15px;
   cursor: pointer;
 }
