@@ -14,7 +14,11 @@ const Header = () => {
           <li>About Us</li>
           <li>Contact Us</li>
           <li>Cart</li>
-          <button className="login" onClick={() => setIsAuth("Logout")}>
+          <button
+            className="login"
+            onClick={() => {
+              isAuth === "Login" ? setIsAuth("Logout") : setIsAuth("Login");
+            }}>
             {isAuth}
           </button>
         </ul>

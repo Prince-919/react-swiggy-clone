@@ -49,6 +49,9 @@
   margin: 10px;
   cursor: pointer;
 }
+.filter {
+  display: flex;
+}
 .shimmer-container {
   display: flex;
   margin-left: 80px;
@@ -65,4 +68,8 @@
   padding: 2px 18px;
   margin-right: 15px;
   cursor: pointer;
+}
+.filter {
+  display: flex;
+  margin-left: 80px;
 }
